@@ -18,6 +18,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /*nav bar*/
 
+#gym-name {
+    text-transform: uppercase;
+    border-right: 5px solid red;
+    padding-right: 35px;
+}
 
 .navigation, .navigation a {
     font-family: 'Archivo', sans-serif;
@@ -31,9 +36,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navigation {
+    padding: 25px 50px;
     display: flex;
     justify-content: space-between;
-    padding: 25px 50px;
+    align-items: stretch;
 }
 
 .navigation ul {
@@ -43,6 +49,14 @@ h1, h2, h3, h4, h5, h6 {
 .navigation li{
     background-color: black;
     display: inline-block;
+}
+
+nav a:hover{
+    border-bottom: 2px solid red;
+}
+
+.active {
+    border-bottom: 2px solid red;
 }
 
 /*hero image*/
@@ -84,4 +98,14 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     text-decoration: none;
     color: black;
+}
+
+#main-action {
+    transition: box-shadow .5s;
+}
+
+#main-action:hover {
+    background: black;
+    color: red;
+    box-shadow: 0 0 10px red;
 }
