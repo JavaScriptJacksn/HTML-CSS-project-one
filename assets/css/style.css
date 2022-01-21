@@ -90,7 +90,7 @@ nav a:hover{
 }
 
 #ready-for-war a {
-    background: red;
+    background: rgba(255, 0, 0, 0.5);
     border: none;
     height: auto;
     width: 300px;
@@ -105,7 +105,19 @@ nav a:hover{
 }
 
 #main-action:hover {
-    background: black;
+    background: rgba(0, 0, 0, 0.5);
     color: red;
     box-shadow: 0 0 10px red;
 }
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-content h1 {
+    font-size: 1.75rem;
+}
+
+/* idea - style main content class divs in a chevron, or at least more vertically with stylised backgrounds perhaps images fixed behind
