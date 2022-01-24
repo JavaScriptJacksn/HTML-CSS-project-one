@@ -177,12 +177,13 @@ hr {
     padding: 25px;
 }
 
-#who-are-we > h1 {
+#who-are-we > h1, #what-do-we-do > h1, #why-do-we-do-it > h1 {
     text-align: center;
 }
 
 #what-do-we-do {
     margin: auto;
+    text-align: center;
 }
 
 #why-do-we-do-it {
