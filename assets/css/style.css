@@ -4,6 +4,10 @@
 
 /*general document styling*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -12,11 +16,18 @@ body {
     color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
     font-family: 'Archivo', sans-serif;
     font-size: 1.6rem;
     letter-spacing: 1px;
     color: rgba(255, 0, 0, 0.6);
+}
+
+h2, h3 {
+    font-size: 1rem;
+    color: rgba(255, 0, 0, 0.6);
+    letter-spacing: 1px;
+    font-family: 'Archivo', sans-serif;
 }
 
 /*nav bar*/
@@ -97,7 +108,7 @@ nav a:hover{
 }
 
 #ready-for-war a {
-    background: rgba(255, 0, 0, 0.5);
+    background: rgba(255, 0, 0, 0.6);
     border: none;
     height: auto;
     width: 300px;
@@ -125,8 +136,19 @@ nav a:hover{
     color: red;
 }
 
+/*main content styling and positioning using display flex */
+
+hr {
+    border: none;
+    background-color: rgba(255, 0, 0, 0.6);
+    margin: 50px;
+    margin-top: 100px;
+    height: 5px;
+}
+
 .main-content-container {
     height: 100vh;
+    box-sizing: border-box;
 }
 
 .main-content-container h1 {
@@ -135,12 +157,46 @@ nav a:hover{
 
 .main-content-container {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 .main-content h1 {
     font-size: 1.75rem;
+}
+
+#who-are-we, #what-do-we-do, #why-do-we-do-it {
+    box-sizing: border-box;
+    width: 100vw;
+    border: 1px solid rgba(255, 0, 0, 0.6);
+    margin: 50px;
+    height: auto;
+}
+
+#who-are-we {
+    align-self: flex-start;
+    text-align: left;
+    padding: 25px;
+}
+
+#who-are-we > h1 {
+    text-align: center;
+}
+
+#what-do-we-do {
+    margin: auto;
+}
+
+#why-do-we-do-it {
+    float: right;
+    align-self: flex-end;
+}
+
+.red-large-strong-text {
+    text-transform: uppercase;
+    font-size: 105%;
+    letter-spacing: 2px;
+    color: rgba(255, 0, 0, 0.6);
+    font-weight: 900;
+    font-style: normal;
 }
 
 /* idea - style main content class divs in a chevron, or at least more vertically with stylised backgrounds perhaps images fixed behind
