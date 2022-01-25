@@ -16,6 +16,11 @@ body {
     color: white;
 }
 
+a {
+    color: rgba(255, 0, 0, 0.6);
+    text-decoration: none;
+}
+
 h1 {
     font-family: 'Archivo', sans-serif;
     font-size: 1.6rem;
@@ -94,7 +99,7 @@ nav a:hover{
     position: relative;
 }
 
-#hero-image-cover-opacity {
+.background-image-cover-opacity {
     background-color: rgba(0, 0, 0, 0.65);
     height: inherit;
 }
@@ -117,6 +122,8 @@ nav a:hover{
     text-decoration: none;
     color: black;
 }
+
+/*main call to action*/
 
 #main-action {
     transition: box-shadow .5s;
@@ -142,7 +149,6 @@ hr {
     border: none;
     background-color: rgba(255, 0, 0, 0.6);
     margin: 50px;
-    margin-top: 100px;
     height: 5px;
 }
 
@@ -167,27 +173,27 @@ hr {
     box-sizing: border-box;
     width: 100vw;
     border: 1px solid rgba(255, 0, 0, 0.6);
+    border-radius: 15px;
     margin: 50px;
     height: auto;
-}
-
-#who-are-we {
-    align-self: flex-start;
-    text-align: left;
     padding: 25px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.85)
 }
 
 #who-are-we > h1, #what-do-we-do > h1, #why-do-we-do-it > h1 {
     text-align: center;
 }
 
+#who-are-we {
+    align-self: flex-start;
+}
+
 #what-do-we-do {
     margin: auto;
-    text-align: center;
 }
 
 #why-do-we-do-it {
-    float: right;
     align-self: flex-end;
 }
 
@@ -200,4 +206,13 @@ hr {
     font-style: normal;
 }
 
-/* idea - style main content class divs in a chevron, or at least more vertically with stylised backgrounds perhaps images fixed behind
+.list {
+    line-height: 25px
+}
+
+/*location map*/
+
+footer {
+    height: 10vh;
+    display: flex;
+}
