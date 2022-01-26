@@ -248,3 +248,25 @@ footer {
 #footer-social-media i{
    font-size: 2rem;
 }
+
+/*media queries for screen sizes with widths 950-800px*/
+
+@media screen and (max-width:950px) {
+    nav {
+        width: 100vw;
+    }
+
+    .main-content-container {
+    display: block;
+    height: fit-content;
+    padding:5px;
+    }
+
+    #who-are-we, #what-do-we-do, #why-do-we-do-it {
+        width: fit-content;
+        max-width: 80vw;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        padding: 25px;
+    }
+}
