@@ -249,7 +249,11 @@ footer {
    font-size: 2rem;
 }
 
-/*media queries for screen sizes with widths 950-800px*/
+
+/*media queries for screen sizes with widths 1800-1500px-800px
+It was discovered that the main content had an intrustive overflow on devices such as the Nexus Hub Max just below 1500px
+width. This was solved by simply moving the main content style changes from a max-width of 850px to 1500px whilst still
+maintaining desktop and tablet responsiveness*/
 
 @media screen and (max-width:1800px) {
 
@@ -258,7 +262,7 @@ footer {
     }
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:1500px) {
 
     .main-content-container {
     display: block;
