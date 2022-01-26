@@ -212,6 +212,18 @@ hr {
 
 /*location map*/
 
+#map-container {
+    width: 100vw;
+    height: 30vh;
+}
+
+#map {
+    width: 100vw;
+    height: 30vh;
+    border: 2px solid rgba(255, 0, 0, 0.6);
+}
+
+
 footer {
     height: 10vh;
     display: flex;
