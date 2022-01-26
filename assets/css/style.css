@@ -251,10 +251,14 @@ footer {
 
 /*media queries for screen sizes with widths 950-800px*/
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:1800px) {
+
     nav {
         width: 100vw;
     }
+}
+
+@media screen and (max-width:950px) {
 
     .main-content-container {
     display: block;
@@ -268,5 +272,44 @@ footer {
         margin: 0 auto;
         margin-bottom: 25px;
         padding: 25px;
+    }
+}
+
+/*media queries for smartphones with screen sizes below 800px */
+
+@media  screen and (max-width:850px) {
+
+    .main-content-container {
+        font-size: 0.8rem;
+    }
+
+    .navigation {
+        display: block;
+        text-align: center;
+    }
+
+    .navigation a {
+        display: block;
+        font-size: 1rem;
+    }
+
+    #gym-name {
+        display: block;
+        clear: both;
+        padding-right: 0;
+        border: none;
+    }
+
+    #main-action h1 {
+        font-size: 1rem;
+    }
+
+    #footer-social-media {
+        flex-wrap: wrap;
+    }
+
+    #footer-copyright {
+        flex-basis: 100%;
+        text-align: center;
     }
 }
