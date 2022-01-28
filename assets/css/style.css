@@ -249,6 +249,12 @@ footer {
    font-size: 2rem;
 }
 
+/*styling specifically for the lifts page*/
+
+#lifts-container {
+    height: 100%;
+    width: 100%;
+}
 
 /*media queries for screen sizes with widths 1800-1500px-800px
 It was discovered that the main content had an intrustive overflow on devices such as the Nexus Hub Max just below 1500px
