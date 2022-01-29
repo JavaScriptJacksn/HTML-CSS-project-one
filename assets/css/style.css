@@ -256,6 +256,13 @@ footer {
     width: 100%;
 }
 
+/*lift spotlight*/
+
+#deadlift-record-spotlight {
+    width: 1280; 
+    height: 720;
+}
+
 /*media queries for screen sizes with widths 1800-1500px-800px
 It was discovered that the main content had an intrustive overflow on devices such as the Nexus Hub Max just below 1500px
 width. This was solved by simply moving the main content style changes from a max-width of 850px to 1500px whilst still
