@@ -234,6 +234,7 @@ hr {
 footer {
     height: 10vh;
     display: flex;
+    position: relative;
 }
 
 #footer-social-media {
@@ -255,6 +256,9 @@ footer {
     background: #3a3a3a url(../images/background-gym.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
+    height: fit-content;
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 .page-title {
@@ -265,6 +269,8 @@ footer {
     border-bottom: 2px solid rgba(255, 0, 0, 0.6);
     border-top: 2px solid rgba(255, 0, 0, 0.6);
     padding: 25px 50px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
 #lift-container {
@@ -275,6 +281,7 @@ footer {
     justify-content:center;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .lift-video {
@@ -307,6 +314,8 @@ footer {
     text-align: center;
     margin: 0 auto;
     margin-top: 25px;
+    margin-bottom: 100px;
+    overflow: hidden;
 }
 
 #lifts-table-container > h2,
@@ -322,6 +331,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     table-layout: fixed;
+    padding-bottom: 50px;
 }
 
 .lifts-table th {
@@ -331,14 +341,40 @@ footer {
 
 .lifts-table th, .lifts-table td {
     padding: 5px;
+    vertical-align: middle;
 }
 
 
 /*lift spotlight*/
 
+#spotlight-container {
+    width: 88vw;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 1px solid rgba(255, 0, 0, 0.6);
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px;
+    overflow: hidden;
+}
+
+#spotlight-container > h2 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#spotlight-container > p {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 #deadlift-record-spotlight {
-    width: 1280; 
-    height: 720;
+   margin: 0 auto;
+   height: 500px;
+   width: 50%;
 }
 
 /*media queries for screen sizes with widths 1800-1500px-800px
