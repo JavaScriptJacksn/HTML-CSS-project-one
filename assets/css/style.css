@@ -297,12 +297,41 @@ footer {
     padding-bottom: 5px;
 }
 
-caption {
+/*lift results table*/
+
+#lifts-table-container {
+    width: 90vw;
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 1px solid rgba(255, 0, 0, 0.6);
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+#lifts-table-container > h2,
+#lifts-table-container > h3 {
+    font-size: 1.3rem;
+    padding: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.lifts-table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+}
+
+.lifts-table th {
+    border-bottom: 1px solid rgba(255, 0, 0, 0.6);
     color: rgba(255, 0, 0, 0.6);
 }
 
-/*lift results table*/
-
+.lifts-table th, .lifts-table td {
+    padding: 5px;
+}
 
 
 /*lift spotlight*/
