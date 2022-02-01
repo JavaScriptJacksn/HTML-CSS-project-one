@@ -250,7 +250,7 @@ footer {
    font-size: 2rem;
 }
 
-/*styling specifically for the lifts page*/
+/*Lifts page styling*/
 
 #background-image {
     background: #3a3a3a url(../images/background-gym.jpg) no-repeat center center;
@@ -344,7 +344,7 @@ footer {
 }
 
 
-/*lift spotlight*/
+/*Lift spotlight*/
 
 #spotlight-container {
     width: 88vw;
@@ -376,7 +376,11 @@ footer {
    width: 50%;
 }
 
-/*media queries for screen sizes with widths 1800-1500px-800px
+/*Sign up page styling*/
+
+
+
+/*Media queries for screen sizes with widths 1800-1500px-800px
 It was discovered that the main content had an intrustive overflow on devices such as the Nexus Hub Max just below 1500px
 width. This was solved by simply moving the main content style changes from a max-width of 850px to 1500px whilst still
 maintaining desktop and tablet responsiveness*/
@@ -414,7 +418,7 @@ maintaining desktop and tablet responsiveness*/
     }
 }
 
-/*media queries for smartphones with screen sizes below 800px */
+/*Media queries for smartphones with screen sizes below 800px */
 
 @media  screen and (max-width:850px) {
 
