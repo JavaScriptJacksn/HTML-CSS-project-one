@@ -264,7 +264,6 @@ footer {
 .page-title {
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.6 rem;
     letter-spacing: 4px;
     border-bottom: 2px solid rgba(255, 0, 0, 0.6);
     border-top: 2px solid rgba(255, 0, 0, 0.6);
@@ -404,6 +403,15 @@ maintaining desktop and tablet responsiveness*/
         margin-bottom: 25px;
         padding: 25px;
     }
+
+    #spotlight-container {
+        width: 75%;
+    }
+
+    #deadlift-record-spotlight {
+        width: 80%;
+        height: 350px;
+    }
 }
 
 /*media queries for smartphones with screen sizes below 800px */
@@ -442,5 +450,28 @@ maintaining desktop and tablet responsiveness*/
     #footer-copyright {
         flex-basis: 100%;
         text-align: center;
+    }
+
+    #lift-container {
+        display: block;
+        clear: both;
+        width: 100%;
+        text-align: center;
+    }
+
+    .lift-video {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .lift-video > video{
+        width: 90%;
+    }
+
+    #deadlift-record-spotlight {
+        width: 100%;
+        height: 250px;
     }
 }
