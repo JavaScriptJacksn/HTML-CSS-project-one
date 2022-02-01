@@ -466,12 +466,4 @@ maintaining desktop and tablet responsiveness*/
         justify-content: center;
     }
     
-    .lift-video > video{
-        width: 90%;
-    }
-
-    #deadlift-record-spotlight {
-        width: 100%;
-        height: 250px;
-    }
 }
