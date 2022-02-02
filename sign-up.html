@@ -9,8 +9,10 @@
 </head>
 <body>
     <header>
+
+        <!--Navigation-->
+
         <nav>
-    
             <ul class="navigation">
                 <li id="gym-name">The Art of War Gym</li>
                 <li><a href="index.html">Home</a></li>
@@ -19,38 +21,47 @@
             </ul>
         </nav>
         </header>
-        <div id="background-image">
+        <div id="lifts-background-image">
             <h1 class="page-title">Sign Up</h1>
             <h2 id="our-email">Our Email: artofwargym@gmail.com</h2>
             <div id="form-container">
+
+                <!--Form-->
+
             <form action="#" method="post" id="form">
                 <div id="about-you-column">
-                    <h2>About you</h2>
+
+                    <!--Personal and contact information column-->
+
+                    <h2>About You</h2>
                     <br>
-                <label for="name"></label>Name: <input type="text" id="name" name="name">
+                <label for="name"></label>Name: <input type="text" id="name" name="name" required>
                 <br>
-                <label for="email"></label>Email: <input type="email" id="email" name="email">
+                <label for="email"></label>Email: <input type="email" id="email" name="email" required>
                 <br>
-                <label for="date-of-birth">Date of Birth: </label><input type="date" id="date-of-birth" name="date-of-birth">
+                <label for="date-of-birth">Date of Birth: </label><input type="date" id="date-of-birth" name="date-of-birth" required>
             </div>
+
+            <!--Previous experience column-->
+
             <div id="experience-column">
                 <h2>Your Experience</h2>
                 <br>
-                <label for="powerlifting"></label>Powerlifting: <select type="text" id="powerlifting" name="powerlifting" list="experience">
+                <label for="powerlifting">Powerlifting: </label><select type="text" id="powerlifting" name="powerlifting" list="experience" required>
                     <option value="beginner">Beginner</option>
                     <option value="intermediate">Intermediate</option>
                     <option value="advanced">Advanced</option>
                     <option value="professional">Professional</option>
                 </select>
                 <br>
-                <label for="crossfit"></label>Crossfit: <select type="text" id="crossfit" name="crossfit" list="experience">
+                <label for="crossfit">Crossfit: </label><select type="text" id="crossfit" name="crossfit" list="experience" required>
                     <option value="beginner">Beginner</option>
                     <option value="intermediate">Intermediate</option>
                     <option value="advanced">Advanced</option>
                     <option value="professional">Professional</option>
                 </select>
                 <br>
-                <label for="bodybuilding"></label>Bodybuilding: <select type="text" id="bodybuilding" name="bodybuilding" list="experience">
+                <label for="bodybuilding">Bodybuilding: </label><select type="text" id="bodybuilding" name="bodybuilding" list="experience" required>
                     <option value="beginner">Beginner</option>
                     <option value="intermediate">Intermediate</option>
                     <option value="advanced">Advanced</option>
@@ -58,11 +69,13 @@
                 </select>
                 <br>
             </div>
+            
+            <!--Additional comments and form reset and submit buttons-->
+
             <div id="form-bottom">
-            <textarea id="additional-comments" placeholder="Addtional comments">
-            </textarea>
+            <textarea id="additional-comments" placeholder="Addtional comments" name="additional-comments"></textarea>
             <br>
-            <button type="reset">Rest</button>
+            <button type="reset">Reset</button>
             <button type="Submit">Submit</button>
             </div>
             </form>       

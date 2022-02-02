@@ -8,6 +8,11 @@ html {
     scroll-behavior: smooth;
 }
 
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
 body {
     margin: 0;
     padding: 0;
@@ -378,6 +383,16 @@ footer {
 
 /*Sign up page styling*/
 
+
+#lifts-background-image {
+    background: #3a3a3a url(../images/background-gym.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
 #form-container {
     background-color: rgba(0, 0, 0, 0.85);
     border: 1px solid rgba(255, 0, 0, 0.6);
@@ -409,22 +424,17 @@ width of the page*/
     line-height: 50px;
 }
 
-#about-you-column {
-    text-align: left;
-}
-
-#experience-column {
-    text-align: right;
-}
-
 #about-you-column,
 #experience-column {
     width: 50%;
+    text-align: center;
 }
 
 #about-you-column > h2,
 #experience-column > h2 {
     font-size: 1.6rem;
+    margin-bottom: 0;
+    margin-top: 50px;
 }
 
 #form-bottom {
@@ -438,6 +448,32 @@ width of the page*/
 #additional-comments {
     width: 75%;
     height: 10vh;
+}
+
+#form button {
+    background-color: rgba(255, 0, 0, 0.6);
+    border: black;
+    border-radius: 15px;
+    width: 10%;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+}
+
+#form button:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: red;
+    box-shadow: 0 0 10px red;
+}
+
+::placeholder {
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+#form input {
+    color: white;
+    font-family: "Roboto", sans-serif;
 }
 
 /*Media queries for screen sizes with widths 1800-1500px-800px
