@@ -384,7 +384,7 @@ footer {
 /*Sign up page styling*/
 
 
-#lifts-background-image {
+#sign-up-background-image {
     background: #3a3a3a url(../images/background-gym.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
@@ -512,6 +512,10 @@ maintaining desktop and tablet responsiveness*/
         width: 80%;
         height: 350px;
     }
+
+    #form button {
+        width: 100px;
+    }
 }
 
 /*Media queries for smartphones with screen sizes below 800px */
@@ -552,6 +556,8 @@ maintaining desktop and tablet responsiveness*/
         text-align: center;
     }
 
+    /*Lifts page*/
+
     #lift-container {
         display: block;
         clear: both;
@@ -574,4 +580,52 @@ maintaining desktop and tablet responsiveness*/
         width: 100%;
         height: 250px;
     }
+
+    /*Sign up page*/
+
+    #sign-up-background-image {
+        height: fit-content;
+    }
+
+    #form {
+        display: block;
+    }
+
+    #about-you-column,
+    #experience-column {
+        width: 100%;
+        text-align: center;
+    }
+
+    #form-bottom {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #form button {
+        width: 100px;
+    }
+
 }
+
+/*specific styling for the form at a certain screen size 960px*/
+
+@media  screen and (max-width:960px) {
+
+    #form-container {
+        font-size: 0.75rem;
+    }
+
+    #form-container h2 {
+        font-size: 1.2rem;
+    }
+
+    #form input {
+        font-size: 0.75rem;
+        max-width: 50px;
+    }
+
+}
+    
+
