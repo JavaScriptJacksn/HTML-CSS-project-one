@@ -378,7 +378,41 @@ footer {
 
 /*Sign up page styling*/
 
+#form-container {
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 1px solid rgba(255, 0, 0, 0.6);
+    border-radius: 15px;
+    margin: 0 10vw;
+    padding:  25px 50px;
+}
 
+#form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#about-you-column,
+#experience-column {
+    width: 40%;
+}
+
+#about-you-column > h2,
+#experience-column > h2 {
+    font-size: 1.6rem;
+}
+
+#about-you-column label,
+#experience-column label{
+    margin-right: 5px;
+}
+
+#form-bottom {
+    flex-basis: 100%;
+    justify-self: flex-end;
+    width: fit-content;
+}
 
 /*Media queries for screen sizes with widths 1800-1500px-800px
 It was discovered that the main content had an intrustive overflow on devices such as the Nexus Hub Max just below 1500px
