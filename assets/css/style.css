@@ -382,20 +382,44 @@ footer {
     background-color: rgba(0, 0, 0, 0.85);
     border: 1px solid rgba(255, 0, 0, 0.6);
     border-radius: 15px;
-    margin: 0 10vw;
+    margin: 0 auto;
     padding:  25px 50px;
+    width: 50vw;
+}
+
+/*Our-email uses code learned online from a post on css-tricks.com around the topic of centering an absolute element
+This element is used to fill the empty space between the columns whilst still allowing the form to fill an asthetically pleasing
+width of the page*/
+
+#our-email {
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+
 }
 
 #form {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     text-align: center;
+    width: 100%;
+    justify-content: space-between;
+    line-height: 50px;
+}
+
+#about-you-column {
+    text-align: left;
+}
+
+#experience-column {
+    text-align: right;
 }
 
 #about-you-column,
 #experience-column {
-    width: 40%;
+    width: 50%;
 }
 
 #about-you-column > h2,
@@ -403,15 +427,17 @@ footer {
     font-size: 1.6rem;
 }
 
-#about-you-column label,
-#experience-column label{
-    margin-right: 5px;
-}
-
 #form-bottom {
     flex-basis: 100%;
     justify-self: flex-end;
     width: fit-content;
+    margin: 50px;
+    padding: 10px;
+}
+
+#additional-comments {
+    width: 75%;
+    height: 10vh;
 }
 
 /*Media queries for screen sizes with widths 1800-1500px-800px
