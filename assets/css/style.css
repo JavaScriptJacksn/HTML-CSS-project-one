@@ -424,6 +424,16 @@ width of the page*/
     line-height: 50px;
 }
 
+#form input, #form textarea, select {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid red;
+}
+
+select {
+    color: white;
+    font-family: inherit;
+}
+
 #about-you-column,
 #experience-column {
     width: 50%;
