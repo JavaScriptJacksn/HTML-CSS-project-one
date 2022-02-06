@@ -99,7 +99,7 @@ nav a:hover{
 #hero-image {
     height: 100vh;
     width: 100%;
-    background: #3a3a3a url(/assets/images/hero-image.jpg) no-repeat center center;
+    background: #3a3a3a url("assets/images/hero-image.jpg") no-repeat center center;
     background-size: cover;
     position: relative;
 }
@@ -158,7 +158,7 @@ hr {
 }
 
 .main-content-container {
-    background: #3a3a3a url(../images/background-gym.jpg) no-repeat center center;
+    background: #3a3a3a url("../images/background-gym.jpg") no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -258,7 +258,7 @@ footer {
 /*Lifts page styling*/
 
 #background-image {
-    background: #3a3a3a url(../images/background-gym.jpg) no-repeat center center;
+    background: #3a3a3a url("../images/background-gym.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     height: fit-content;
@@ -385,7 +385,7 @@ footer {
 
 
 #sign-up-background-image {
-    background: #3a3a3a url(../images/background-gym.jpg) no-repeat center center;
+    background: #3a3a3a url("../images/background-gym.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
