@@ -541,11 +541,16 @@ maintaining desktop and tablet responsiveness*/
         font-size: 1rem;
     }
 
+    .navigation li {
+        margin-right: 10px;
+    }
+
     #gym-name {
         display: block;
         clear: both;
         padding-right: 0;
         border: none;
+        font-size: 1.2rem;
     }
 
     #main-action h1 {
