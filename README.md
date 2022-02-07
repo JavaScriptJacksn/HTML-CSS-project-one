@@ -1,108 +1,61 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome JavaScriptJacksn,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
+# The Art of War Gym
 ---
+![Am I Responive Image](/assets/images/Responsive.jpg)
 
-Happy coding!
+# User Experience
+---
+## User Stories
+- First Time Visitor Goals:
+    - As a First Time Visitor, I wish to be able to access and understand the information about the gym.
+    - As a First Time Visitor, I want to be able to quickly understand how to navigate the site to the sections I need.
+    - As a First Time Visitor, I want to easily be able to access the social media sites of the gym along with their contact email for any questions I may have.
+    - As a First Time Visitor, I want to be able to see the names and specialties of the staff running the gym to see if they are indeed experienced and of value to the gym’s members.
+- Returning Visitor Goals:
+    - As a Returning Visitor, I want to easily view further information including contact information.
+    - As a Returning Visitor, I want to be able to easily navigate to the sign up page and easily provide my details for membership application (As it is usually not the first time viewing that visitors choose to sign up).
+- Frequent Visitor Goals:
+    - As a frequent visitor, I want to be able to review the changes to the top Lifts table to see changes to scores.
+    - As a Frequent visitor I want to see if there are any new featured lifts or lift spotlights.
+---
+## Design
+- Colour Scheme
+    - Red, Black and a minor text colour of white
+    - These colours reflect the ethos of the gym, along with the brutality of the sports it practices with a dark black and shadowed background to divs, and a blood red for headings and bold text.
+- Typography
+    - Archivo is a sans-serif font used for the headings as it is blocky and strong whilst looking clean and professional. I imported the bolder 900 weight font to improve this. 
+    - Roboto is used as the text font as it pairs cleanly and suitably with the heading font giving a nice contrast of bold headings to lighter body text along with their text colour.
+- Imagery
+    - The hero image is that of UK powerlifter Eddie Hall’s deadlift 500kg, the world record at the time in 2016. I used this image for two main reasons. Firstly, it sends an immediate thematic message to visitors of the gym’s ethos. The raw nature of the bleeding nose and dark background pairs great with the blood red and black colour scheme.
+    - I also added an overlay to the hero image of a black colour with an opacity of 0.65 to decrease its focus and shift its colour palette lower to fit with the rest of the site.
+    - The gym background image was chosen as it reflects what the interior of a gym like The Art of War would look like. It also brings a visually appealing contrast to the text and div backgrounds which are black with an alpha opacity of 0.8
+- Videos
+    - I used both embedded videos using the video tag and a youtube iframe.
+    - The embedded videos were implemented to show a mixture of current world records and impressive lifts that are easy to change with one link in the html as they are beaten.
+    - The iframe video is a documentary/news report on famous bodybuilder and powerlifter greg doucette which has its place as a special spotlight longer-form video.
+    - I also used the iframe for the longer video as it streams an embedded youtube page through the iframe rather than loading a large video file from the server hosting servers which improves site loading time and reliability.
+---
+## Features
+- Responsivity for all devices
+- Sign up form with validation
+- HTML semantics
+- Accessibility in the forms of alt tags for images and aria-labels for links
+---
+## Technologies Used
+- Languages Used
+    - HTML
+    - CSS
+- Frameworks, Libraries and Programs
+    - Google fonts
+        - An import link at the start of the style.css file imports the Archivo 900 weight font and the Standard weight Roboto font.
+    - Font Awesome
+        - Taking inspiration from the Code Institute Love Running project, I used the same font awesome icons for the social media links in the footer for asetheic purposes, as those were the best looking for my site. These were imported through the script tag in the html pages.
+    - Git
+        - Git was used for version control.
+    - Github
+        - GitHub is used as both a repository for the storage of the project, and also as a live website hosting service with GitHub pages.
+---
+## Testing
+The W3C HTML and CSS validators were used to validate the code after each major change and completion of each page. All errors and warnings are resolved and the code passes validation
+- Index.html validation [screenshot](/assets/images/Index-validation.jpg)
+- lifts.html validation [screenshot](/assets/images/lifts-validation.jpg)
+- sign-up.html validation [screenshot](/assets/images/sign-up-validation.jpg)
