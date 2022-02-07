@@ -580,6 +580,7 @@ maintaining desktop and tablet responsiveness*/
         align-items: center;
         flex-wrap: wrap;
         justify-content: center;
+        margin-bottom: 25px;
     }
     
     .lift-video > video{
