@@ -1,5 +1,7 @@
 # The Art of War Gym
 ---
+Here is a link to the [live site](https://javascriptjacksn.github.io/HTML-CSS-project-one-Art-of-War-Gym/index.html)
+
 ![Am I Responive Image](/assets/images/Responsive.jpg)
 
 # User Experience
@@ -43,7 +45,7 @@
 - HTML
 - CSS
 ## Frameworks, Libraries and Programs
-- Google fonts
+- Google Fonts
     - An import link at the start of the style.css file imports the Archivo 900 weight font and the Standard weight Roboto font.
 - Font Awesome
     - Taking inspiration from the Code Institute Love Running project, I used the same font awesome icons for the social media links in the footer for asetheic purposes, as those were the best looking for my site. These were imported through the script tag in the html pages.
@@ -63,6 +65,9 @@ The W3C HTML and CSS validators were used to validate the code after each major 
 - First Time Visitor Goals:
     - As a First Time Visitor, I wish to be able to access and understand the information about the gym.
         - Users are given an immediate interactive call to action 'Ready for war' bringing user down to the main content of information.
+
+        ![Hero Image screenshot](/assets/images/hero-image-screenshot.jpg)
+
         - Users get a clear and semantically layed-out main body content under three headings to easily access the information they need.
     - As a First Time Visitor, I want to be able to quickly understand how to navigate the site to the sections I need.
         - The site is designed in a clear and understandable way with user expectations being met from page to page.
@@ -70,6 +75,7 @@ The W3C HTML and CSS validators were used to validate the code after each major 
     - As a First Time Visitor, I want to easily be able to access the social media sites of the gym along with their contact email for any questions I may have, along with the gym location for in-person visits.
         - The social media links are clearly layed out under the map in the footer on the homepage.
         - The links carry over to each site footer for access at any point in the user experience.
+        ![Footer screenshot](/assets/images/footer-screenshot.jpg)
         - The email contact is found in bold at the center of the sign up form for ease of access.
         - Users are also prompted in the main content towards where to find the gym with the map on the home page.
     - As a First Time Visitor, I want to be able to see the names and specialties of the staff running the gym to see if they are indeed experienced and of value to the gym’s members.
@@ -82,8 +88,12 @@ The W3C HTML and CSS validators were used to validate the code after each major 
     - As a frequent Visitor, I want to be able to review the changes to the top Lifts table to see changes to scores.
         - The table of lifts is easily navigated to even from new users to the site, so is no worry for returning or frequent visitors.
         - The table of lifts is also mentioned and linked to in the main content on the home page, as well as the navigation bar.
+        ![Lifts table screenshot](/assets/images/lifts-table-screenshot.jpg)
     - As a Frequent Visitor, I want to see if there are any new featured lifts or lift spotlights.
         - The featured lifts are positioned on the same page as the lifts table, just above them in inline blocks with descriptions and video controls.
+
+        ![Lifts video screenshot](/assets/images/lifts-screenshot.jpg)
+
         - The videos flow well within the site and on smaller screen sizes still fit nicely into the viewport size allowing users on all devices to use them successfully and with ease.
         - The iframe lift spotlight works well as it allows users to easily find it, as expected elements show the user that the lifts page scrolls down, as to let them know there is more to be seen. The iframe also flows well within the page.
 ## Further Testing
@@ -97,10 +107,45 @@ The W3C HTML and CSS validators were used to validate the code after each major 
     - Macbook Air
     - 2560x1440p Desktop Monitor
     - Microsoft Surface Pro 4
-## Known Bugs
+
+![Am I Responive Image](/assets/images/Responsive.jpg)
+
+## Known existing Bugs
 - With the flexbox footer, on some smaller viewport devices the footer pushes the copyright text content to the right slightly.
 ---
 # Deployment
+## GitHub Pages
+The project was deployed to GitHub Pages using the following steps...
+1. Log in to GitHub and locate [The Art of War Repository](https://github.com/JavaScriptJacksn/HTML-CSS-project-one-Art-of-War-Gym)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published [site link](https://javascriptjacksn.github.io/HTML-CSS-project-one-Art-of-War-Gym/index.html) in the "GitHub Pages" section.
+## Forking the GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+1. Log in to GitHub and locate the [The Art of War Repository](https://github.com/JavaScriptJacksn/HTML-CSS-project-one-Art-of-War-Gym)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. This created a repository copy in my GitHub account.
+## Making a Local Clone
+1. Log in to GitHub and locate the [The Art of War Repository](https://github.com/JavaScriptJacksn/HTML-CSS-project-one-Art-of-War-Gym)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+```
+$ git clone https://github.com/JavaScriptJacksn/ HTML-CSS-project-one-Art-of-War-Gym
+```
+7. Press Enter. Your local clone will be created.
+```
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+## Fixed Deployment Bugs
 The project was successfully deployed to GitHub pages under this [link](https://javascriptjacksn.github.io/HTML-CSS-project-one-Art-of-War-Gym/index.html)
 A few issues regarding deployment became prevalant after some final testing:
 - GitHub pages did not load images correctly, which was discovered to be an issue with my Firefox DarkReader extention, and not the code itself.
